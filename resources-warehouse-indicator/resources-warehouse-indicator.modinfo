@@ -30,9 +30,6 @@
         <UIScripts>
           <Item>scripts/ui/warehouse-indicator.js</Item>
         </UIScripts>
-        <UpdateText>
-          <Item>text/en_US/InGameText.xml</Item>
-        </UpdateText>
       </Actions>
     </ActionGroup>
   </ActionGroups>
