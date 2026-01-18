@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Database>
+  <EnglishText>
+    <Row Tag="LOC_MOD_RESOURCE_PAGE_WAREHOUSE_INDICATOR">
+      <Text>Resource Page Warehouse Indicator</Text>
+    </Row>
+    <Row Tag="LOC_MOD_RESOURCE_PAGE_WAREHOUSE_INDICATOR_DESCRIPTION">
+      <Text>
+        Adds the number of warehouse buildings in each settlement to the resources page
+        [N]
+        This mod does not affect saved games.
+        [N]
+        [B]URL:[/B] [URL]https://github.com/Diviloper/CIV7-Mods[/URL]
+      </Text>
+    </Row>
+    <Row Tag="LOC_MOD_RESOURCE_PAGE_WAREHOUSE_INDICATOR_AUTHORS">
+      <Text>Diviloper</Text>
+    </Row>
+    <Row Tag="LOC_MOD_RESOURCE_PAGE_WAREHOUSE_INDICATOR_COMPATIBILITY">
+      <Text>This should be compatible with all other mods.</Text>
+    </Row>
+    <Row Tag="LOC_MOD_RESOURCE_PAGE_WAREHOUSE_INDICATOR_URL">
+      <Text>https://github.com/Diviloper/CIV7-Mods</Text>
+    </Row>
+    <Row Tag="LOC_MOD_RESOURCE_PAGE_WAREHOUSE_INDICATOR_VERSION">
+      <Text>1.0.0</Text>
+    </Row>
+  </EnglishText>
+</Database>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Mod id="resources-warehouse-indicator" version="1.0.0" xmlns="ModInfo">
+  <Properties>
+    <Name>LOC_MOD_RESOURCE_PAGE_WAREHOUSE_INDICATOR</Name>
+    <Description
+        >LOC_MOD_RESOURCE_PAGE_WAREHOUSE_INDICATOR_DESCRIPTION</Description>
+    <Authors>Diviloper</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <!-- properties for TCS Improved Mod Page -->
+    <Compatibility
+        >This should be compatible with all other mods.</Compatibility>
+    <URL>https://github.com/Diviloper/CIV7-Mods</URL>
+    <Version>1.0.0</Version>
+  </Properties>
+  <Dependencies>
+		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME" />
+	</Dependencies>
+	<References>
+		<Mod id="core" title="LOC_MODULE_CORE_NAME" />
+	</References>
+  <ActionCriteria>
+    <Criteria id="always">
+      <AlwaysMet />
+    </Criteria>
+  </ActionCriteria>
+  <ActionGroups>
+    <ActionGroup id="warehouse-indicator" scope="game" criteria="always">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <Actions>
+        <UIScripts>
+          <Item>scripts/ui/warehouse-indicator.js</Item>
+        </UIScripts>
+        <UpdateText>
+          <Item>text/en_US/InGameText.xml</Item>
+        </UpdateText>
+      </Actions>
+    </ActionGroup>
+  </ActionGroups>
+  <LocalizedText>
+    <File>text/en_US/ModInfoText.xml</File>
+  </LocalizedText>
+</Mod>
